@@ -1,0 +1,27 @@
+<MDBottomNavigation>
+    <MDTabStrip iosIconRenderingMode="alwaysOriginal">
+
+        <MDTabStripItem>
+            <Label text="Players Tab"></Label>
+            <Image src="font://&#xf007;" class="fas t-36"></Image>
+        </MDTabStripItem>
+        <MDTabStripItem>
+            <Label text="Teams Tab"></Label>
+            <Image src="font://&#xf0c0;" class="fas t-36"></Image>
+        </MDTabStripItem>
+
+    </MDTabStrip>
+
+    <MDTabContentItem>
+        <GridLayout>
+            <page-router-outlet name="playerTab" actionBarVisibility="never"></page-router-outlet>
+        </GridLayout>
+    </MDTabContentItem>
+
+    <MDTabContentItem>
+        <GridLayout>
+            <page-router-outlet name="teamTab" actionBarVisibility="never"></page-router-outlet>
+        </GridLayout>
+    </MDTabContentItem>
+
+</MDBottomNavigation>
