@@ -12,8 +12,8 @@
     "@angular/platform-browser": "~13.1.1",
     "@angular/platform-browser-dynamic": "~13.1.1",
     "@angular/router": "~13.1.1",
-    "@nativescript-community/ui-material-bottom-navigation": "~6.2.5",
-    "@nativescript/angular": "^13.0.0",
+    "@nativescript-community/ui-material-bottom-navigation": "~6.2.12",
+    "@nativescript/angular": "file:plugins/nativescript-angular-13.0.2-custom.0.tar.gz",
     "@nativescript/core": "~8.1.1",
     "@nativescript/theme": "~3.0.1",
     "rxjs": "~7.4.0",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.1.1",
     "@angular/compiler-cli": "~13.1.1",
+    "@nativescript/android": "8.1.1",
     "@nativescript/ios": "8.1.0",
     "@nativescript/types": "~8.1.1",
     "@nativescript/webpack": "~5.0.0",

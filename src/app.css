@@ -20,3 +20,7 @@ MDTabStrip {
 MDTabStripItem:highlighted {
     color: red;
 }
+
+.page {
+    margin-top: 30;
+}
